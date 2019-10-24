@@ -106,10 +106,9 @@ function bs_diona_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar right', 'bs-diona' ),
-		'id'            => 'sidebar-right',
+		'name'          => esc_html__( 'Sidebar left', 'bs-diona' ),
+		'id'            => 'sidebar-left',
 		'description'   => esc_html__( 'Add widgets here.', 'bs-diona' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
